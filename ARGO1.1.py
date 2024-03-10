@@ -15,7 +15,7 @@ with col1:  # En esta columna mostramos el logo
     st.image('argo.jpg', width=100)  # Ajusta el tamaño según sea necesario
 
 with col2:  # En esta columna mostramos el texto
-    st.markdown("## Sistema de Registro ARGO - Subsecretaria de Innovación", unsafe_allow_html=True)
+    st.markdown("## SISTEMA DE REGISTRO ARGO", unsafe_allow_html=True)
 
 
 
