@@ -8,6 +8,10 @@ import boto3
 from botocore.exceptions import NoCredentialsError
 import io
 
+# Asegúrate de que 'argo.jpg' esté en el mismo directorio que tu script de Streamlit
+logo = 'argo.jpg'
+st.image(logo, width=200)  # Cambia el valor de 'width' para ajustar el tamaño de tu logo
+
 
 # Función para cargar la clave de encriptación
 def load_key():
