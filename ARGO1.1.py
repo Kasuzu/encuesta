@@ -8,9 +8,15 @@ import boto3
 from botocore.exceptions import NoCredentialsError
 import io
 
-# Asegúrate de que 'argo.jpg' esté en el mismo directorio que tu script de Streamlit
-logo = 'argo.jpg'
-st.image(logo, width=200)  # Cambia el valor de 'width' para ajustar el tamaño de tu logo
+# Usa st.columns para colocar el logo junto al título
+col1, col2 = st.columns([1, 4])  # Ajusta las proporciones según necesites
+
+with col1:  # En esta columna mostramos el logo
+    st.image('argo.jpg', width=100)  # Ajusta el tamaño según sea necesario
+
+with col2:  # En esta columna mostramos el texto
+    st.markdown("## Sistema de Registro ARGO - Subsecretaria de Innovación", unsafe_allow_html=True)
+
 
 
 # Función para cargar la clave de encriptación
