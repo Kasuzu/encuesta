@@ -58,7 +58,7 @@ def decrypt_data(encrypted_data):
 
 def login_system():
     if 'logged_in' not in st.session_state or not st.session_state['logged_in']:
-        st.title('Sistema de Registro ARGO - Subsecretaria de Innovación')
+
 
         username = st.text_input('Nombre de Usuario', key='login_username')
         password = st.text_input('Contraseña', type='password', key='login_password')
