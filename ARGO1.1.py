@@ -12,7 +12,7 @@ import io
 col1, col2 = st.columns([1, 4])  # Ajusta las proporciones según necesites
 
 with col1:  # En esta columna mostramos el logo
-    st.image('argo.jpg', width=150)  # Ajusta el tamaño según sea necesario
+    st.image('argo.jpg', width=130)  # Ajusta el tamaño según sea necesario
 
 with col2:  # En esta columna mostramos el texto
     st.markdown("# SISTEMA DE REGISTRO ARGO", unsafe_allow_html=True)
