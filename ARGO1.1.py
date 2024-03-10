@@ -15,7 +15,7 @@ with col1:  # En esta columna mostramos el logo
     st.image('argo.jpg', width=130)  # Ajusta el tamaño según sea necesario
 
 with col2:  # En esta columna mostramos el texto
-    st.markdown(""<div style='text-align: center;'><h1>SISTEMA DE REGISTRO ARGO</h1></div>", unsafe_allow_html=True)
+    st.markdown("<div style='text-align: center;'><h1>SISTEMA DE REGISTRO ARGO</h1></div>", unsafe_allow_html=True)
     st.markdown("<div style='text-align: center;'><h4 style='font-size: 22px;'>Subsecretaria de Innovación - Gobernación de Nariño</h4></div>", unsafe_allow_html=True)
 
 
