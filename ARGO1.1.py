@@ -23,7 +23,7 @@ with col2:  # En esta columna mostramos el texto
 st.write('\n\n\n\n\n')
 
 # Pie de página
-st.markdown("<div style='text-align: center; color: gray; border-top: 1px solid #ccc; padding-top: 10px;'>Desarrollado por Luis Angel Bolaños</div>", unsafe_allow_html=True)
+st.markdown("<div style='text-align: center; color: gray; border-top: 1px solid #ccc; padding-top: 10px;'>Desarrollado por @Luis Angel Bolaños</div>", unsafe_allow_html=True)
 
 # Función para cargar la clave de encriptación
 def load_key():
